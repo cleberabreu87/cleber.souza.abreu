@@ -158,7 +158,9 @@ section p {
 .curso,
 .detalhe-contato {
   font-size: clamp(0.95rem, 0.85rem + 0.9vw, 1.25rem);
+  text-align: justify;
   max-width: 100%;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 900px) {
