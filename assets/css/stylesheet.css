@@ -70,6 +70,7 @@ nav a {
   font-size: 1.375rem;
   margin-bottom: var(--space);
 }
+
 .inicio {
   color: var(--accent);
   font-weight: bold;
@@ -137,6 +138,11 @@ section p {
   font-weight: bold;
 }
 #saudacao .nome {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+#saudacao .nome:hover {
   color: var(--contrast);
   font-weight: bold;
 }
